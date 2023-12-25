@@ -1,0 +1,664 @@
+/* =============== font links part start ================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+/* --------------- font links part end   ----------------- */
+
+/* ==================== Projects data ================= */
+/* 
+Project name: Dhaka Corporate Salutation
+own by :MD: Hafizur Rahman
+
+code author: MD:Nahid hasan 
+designation: Full Stack Web Developer
+email: nahidhasanniyan@gmail.com
+
+Sections:
+
+
+*/
+
+/* =============== common css part start ================= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* --------------- common css part end   ----------------- */
+/* =============== variable css part start ================= */
+:root {
+    --primary_color: #FFA500;
+    --secendary_color: #990005;
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* --------------- variable css part end   ----------------- */
+/* =============== header css part start ================= */
+#header {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    background: var(--primary_color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#header .contracts ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#header .contracts ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #fff;
+}
+#header .social_contracts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#header .social_contracts .time p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #fff;
+}#header .social_contracts .time p span{
+    margin-right: 20px;
+}
+#header .social_contracts ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#header .social_contracts ul li a {
+    font-size: 20px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#header .social_contracts ul li a:hover {
+    color: #000;
+}
+
+/* --------------- header css part end   ----------------- */
+/* =============== main_menu css part start ================= */
+.main_menu {
+    width: 100%;
+    background-image: linear-gradient(#27ED2A, #078406);
+    padding: 0px;
+    height: 70px;
+}
+
+.main_menu ul {
+    justify-content: end !important;
+}
+
+.main_menu ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #fff !important;
+    transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    color: var(--secendary_color) !important;
+}
+
+/* --------------- main_menu css part end   ----------------- */
+/* =============== text_slide css part start ================= */
+#text_slide {
+    padding: 10px 0;
+    background: var(--secendary_color);
+}
+
+#image_slide .mar_img img {
+    width: 450px;
+}
+
+.main_moving_text ul {
+    display: flex;
+    gap: 40px;
+}
+
+.main_moving_text ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #fff;
+}
+
+/* --------------- text_slide css part end   ----------------- */
+/* ================= slide_image css  part start =============== */
+.main_slide_image img {
+    width: 600px;
+}
+
+/* ---------------- slide_image css  part end ------------------ */
+/* =============== sercives_item css part start ================= */
+#sercives_item {
+    padding-bottom: 70px;
+}
+
+#sercives_item .services_head {
+    width: 100%;
+    padding: 20px 0;
+    background-image: linear-gradient(#27ED2A, #078406);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#sercives_item .services_head h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #fff;
+}
+
+.nahid_texts {
+    width: 410px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000 !important;
+    background: var(--primary_color);
+    box-shadow: 4px 10px 11px -3px rgba(0, 0, 0, 0.75) inset !important;
+    border-radius: 50px !important;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background: var(--primary_color);
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.main_services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single_services {
+    display: flex;
+}
+
+.nahid_accro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.n_items {
+    width: 400px;
+    border: 2px solid gray !important;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item_list ul {
+    list-style: disc;
+}
+
+.item_list ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: black;
+}
+
+.item_list ul li span {
+    font-size: 20px;
+    color: var(--primary_color);
+    margin-left: 20px;
+}
+
+.item_list ul li ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px dotted var(--primary_color);
+    display: none;
+}
+
+.s_text {
+    font-size: 23px;
+}
+
+/* --------------- sercives_item css part end   ----------------- */
+
+/* ---------------------------------------------------
+
+                    ABOUT Page CSS  
+
+--------------------------------------------------------*/
+
+/* ====================== woner part start =============== */
+#owner {
+    margin-top: 60px;
+}
+
+.woner_text_header h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--secendary_color);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.woner_col img {
+    width: 350px;
+}
+
+.woner_col {
+    text-align: center;
+}
+
+.woner_col h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: black;
+    margin: 20px 0;
+}
+
+.woner_col p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: black;
+}
+
+/* ---------------------- woner part end ----------------- */
+
+
+/* ====================== about common  protfolio  part start =============== */
+#company {
+    padding-top: 100px;
+}
+
+.prot_image img {
+    width: 100%;
+}
+
+.prot_head h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.prot_head h2 span {
+    color: var(--secendary_color);
+}
+
+.prot_text p {
+    width: 650px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+}
+
+.prot_text p span {
+    display: block;
+    margin-top: 20px;
+}
+
+/* ---------------------- about common  protfolio  part end ----------------- */
+
+/* ====================== visons part start =============== */
+#visons {
+    padding-top: 100px;
+}
+
+#visons .prot_head h2 {
+    margin-top: 0px;
+}
+
+.prot_text ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+/* ---------------------- visons part end ----------------- */
+
+/* ====================== trainer part start =============== */
+#trainer {
+    padding-top: 100px;
+}
+
+/* ---------------------- trainer part end ----------------- */
+
+/* ====================== mission part start =============== */
+#mission {
+    padding-top: 100px;
+}
+
+#mission .prot_head h2 {
+    color: var(--secendary_color);
+}
+
+/* ---------------------- mission part end ----------------- */
+
+/* ====================== choose part start =============== */
+#choose{
+    padding-top: 100px;
+}
+#choose .prot_text h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    margin-top: 30px;
+    font-style: italic;
+}
+#choose .prot_text h3 span{
+    display: block;
+    color: var(--secendary_color);
+    font-family: 'Caveat', cursive;
+}
+/* ---------------------- choose part end ----------------- */
+/* ----------------------- Dhaka foundation and publications ---- */
+#publications{
+    padding-top: 100px;
+}
+.foundation_head{
+    text-align: center;
+}
+#publications .foundation_head h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: black;
+
+}
+#publications .foundation_head h3 span{
+    color: var(--secendary_color);
+}
+.social_works {
+    text-align: center;
+    padding-top: 30px;
+}
+.social_works h3{
+    font-size: 30px;
+    font-weight:500;
+    font-family: var(--poppins);
+    color: var(--secendary_color);
+    margin: 20px 0;
+}
+.social_works ul{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: black;
+}
+.social_works h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    font-style: italic;
+    color: var(--secendary_color);
+}
+/* ----------------------- Dhaka foundation and publications ---- */
+/* ====================== activites part start =============== */
+#activites{
+    padding-top: 100px;
+}
+#activites .activites_head h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main_activites{
+    padding: 20px;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    transition: all linear .3s;
+    margin-bottom: 20px;
+}
+.main_activites:hover{
+    box-shadow: 0 1px 1px #990005, 0 2px 2px #990005, 0 4px 4px #990005, 0 8px 8px #990005;
+
+}
+.main_activites .activites_image{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main_activites .activites_image img{
+    transition: all linear .3s;
+}
+.main_activites .activites_image:hover img{
+    transform: scale(1.2);
+}
+
+.activites_text h2{
+    font-size: 27px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--secendary_color);
+    text-align: center;
+    margin: 10px 0;
+}
+.activites_text p{
+    width: 340px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+}
+.donation_button a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: var(--secendary_color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #fff;
+    margin-left: 20px;
+    margin: 20px;
+    border: 1px solid var(--secendary_color);
+    transition: all linear .3s;
+}
+.donation_button a:hover{
+    background: transparent;
+    color: var(--secendary_color);
+    transform: scale(1.1);    
+}
+.speach{
+    padding: 20px;
+    border: 2px dotted var(--secendary_color);
+    margin-bottom: 20px;
+} 
+.speach h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+}
+.speach h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    margin-top: 20px;
+    
+}
+.speach h6 span{
+    font-weight: bold;
+    color: var(--secendary_color);
+    margin-right: 10px;
+}
+/* ---------------------- activites part end ----------------- */
+
+/* ====================== woner part start =============== */
+
+
+/* ---------------------- woner part end ----------------- */
+/* =============== footer css part start ================= */
+#footer {
+    background: #D3D3D3;
+    padding: 40px 0;
+}
+
+.main_footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotter_col_one .footer_logo img {
+    width: 280px;
+}
+
+.fotter_col_one .footer_contract ul li img {
+    width: 40px;
+}
+
+.fotter_col_one .footer_contract ul li {
+    margin-top: 20px;
+}
+
+.fotter_col_one .footer_contract ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+}
+
+.footer_icons_head h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #000;
+    padding: 27px 0;
+}
+
+.fotter_col_two ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.fotter_col_two ul li a img {
+    width: 40px;
+}
+
+.branchs {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer_col_3 .branchs h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+    margin-top: 25px;
+}
+
+.map_text ul{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.map_text ul li{
+    display: flex; 
+    gap: 20px;
+}
+
+
+.map_text ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+}
+
+#copyright {
+    background: #990005;
+    padding: 10px;
+}
+
+#copyright p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #fff;
+    text-align: center;
+}
+
+/* --------------- footer css part end   ----------------- */

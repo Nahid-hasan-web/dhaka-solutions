@@ -1,0 +1,399 @@
+/* ========================== extra small part strat =================== */
+@media (max-width: 575.98px) {
+
+	/* ---------------- header part start --------------------------------- */
+	#header .contracts ul {
+		gap: 10px;
+	}
+
+	#header .contracts ul li a {
+		font-size: 13px;
+	}
+
+	#header .social_contracts ul {
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	/* ----------------- header part end --------------------------------- */
+	/* ---------------- navbar part start --------------------------------- */
+
+	.menu_logo img {
+		width: 200px;
+	}
+
+	.navbar-toggler {
+		padding: 8px 10px;
+	}
+
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+
+	.main_menu ul {
+		background: #990005;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.main_menu ul li a:hover {
+		color: black !important;
+	}
+
+	/* ----------------- navbar part end --------------------------------- */
+	/* ---------------- text_slide part start --------------------------------- */
+
+	.main_moving_text ul li {
+		font-size: 14px;
+	}
+
+	/* ----------------- text_slide part end --------------------------------- */
+	/* ---------------- slide_image part start --------------------------------- */
+	.main_slide_image img {
+		width: 300px;
+	}
+
+	/* ----------------- slide_image part end --------------------------------- */
+	/* ---------------- sercives_item part start --------------------------------- */
+	#sercives_item .services_head {
+		padding: 4px 0;
+	}
+
+	/* ----------------- sercives_item part end --------------------------------- */
+	/* ---------------- accro part start --------------------------------- */
+	.nahid_texts {
+		width: 300px;
+		font-size: 16px;
+		font-weight: 400;
+		border-radius: 5px !important;
+	}
+
+	.n_items {
+		width: 100%;
+	}
+
+	/* ----------------- accro part end --------------------------------- */
+	/* ==================== About us responsive ========================== */
+	/* ---------------- about us part start --------------------------------- */
+	#sercives_item {
+		padding-bottom: 0px;
+	}
+	.prot_text p {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	/* ----------------- about us part end --------------------------------- */
+	/* ---------------- charity part start --------------------------------- */
+	.activites_text p {
+		width: 100%;
+		font-size: 14px;
+	}
+	.main_activites {
+		height: 500px;
+	}
+
+	/* ----------------- charity part end --------------------------------- */
+	/* ---------------- mission part start --------------------------------- */
+	#mission {
+		padding-top: 30px;
+	}
+	#visons {
+		padding-top: 50px;
+	}
+	#trainer {
+		padding-top: 50px;
+	}
+	.prot_head h2 {
+		margin-top: 10px;
+	}
+	/* ----------------- mission part end --------------------------------- */
+	/* ---------------- footer part start --------------------------------- */
+	.fotter_col_one .footer_contract ul li a {
+		font-size: 14px;
+		
+	}
+	.fotter_col_one .footer_contract ul li img {
+		width: 30px;
+	}
+	.fotter_col_one .footer_contract ul li a {
+		font-size: 13px !important;
+	}
+	.map_text .rangpur_map {
+		flex-wrap: nowrap;
+	}
+
+	/* ----------------- footer part end --------------------------------- */
+}
+
+/* -------------------------- medium part end ----------------------- */
+/* ==========================  small part strat =================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* ---------------- header part start --------------------------------- */
+	#header .contracts ul {
+		gap: 10px;
+	}
+
+	#header .contracts ul li a {
+		font-size: 13px;
+	}
+
+	#header .social_contracts ul {
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	/* ----------------- header part end --------------------------------- */
+	/* ---------------- navbar part start --------------------------------- */
+
+	.menu_logo img {
+		width: 200px;
+	}
+
+	.navbar-toggler {
+		padding: 8px 10px;
+	}
+
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+
+	.main_menu ul {
+		background: #990005;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.main_menu ul li a:hover {
+		color: black !important;
+	}
+
+	/* ----------------- navbar part end --------------------------------- */
+	/* ---------------- text_slide part start --------------------------------- */
+
+	.main_moving_text ul li {
+		font-size: 14px;
+	}
+
+	/* ----------------- text_slide part end --------------------------------- */
+	/* ---------------- slide_image part start --------------------------------- */
+	.main_slide_image img {
+		width: 300px;
+	}
+
+	/* ----------------- slide_image part end --------------------------------- */
+	/* ---------------- sercives_item part start --------------------------------- */
+	#sercives_item .services_head {
+		padding: 4px 0;
+	}
+
+	/* ----------------- sercives_item part end --------------------------------- */
+	/* ---------------- accro part start --------------------------------- */
+	.nahid_texts {
+		width: 300px;
+		font-size: 16px;
+		font-weight: 400;
+		border-radius: 5px !important;
+	}
+
+	.n_items {
+		width: 100%;
+	}
+
+	/* ----------------- accro part end --------------------------------- */
+	/* ==================== About us responsive ========================== */
+	/* ---------------- about us part start --------------------------------- */
+	#sercives_item {
+		padding-bottom: 0px;
+	}
+	.prot_text p {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	/* ----------------- about us part end --------------------------------- */
+	/* ---------------- charity part start --------------------------------- */
+	.activites_text p {
+		width: 100%;
+		font-size: 14px;
+	}
+	.main_activites {
+		height: 650px;
+	}
+
+
+	/* ----------------- charity part end --------------------------------- */
+	/* ---------------- mission part start --------------------------------- */
+	#mission {
+		padding-top: 30px;
+	}
+	#visons {
+		padding-top: 50px;
+	}
+	#trainer {
+		padding-top: 50px;
+	}
+	.prot_head h2 {
+		margin-top: 10px;
+	}
+	/* ----------------- mission part end --------------------------------- */
+	/* ---------------- footer part start --------------------------------- */
+	.fotter_col_one .footer_contract ul li a {
+		font-size: 14px;
+		
+	}
+	.fotter_col_one .footer_contract ul li img {
+		width: 30px;
+	}
+	.fotter_col_one .footer_contract ul li a {
+		font-size: 13px !important;
+	}
+	.map_text .rangpur_map {
+		flex-wrap: nowrap;
+	}
+
+	/* ----------------- footer part end --------------------------------- */
+ }
+
+/* --------------------------  small part end ----------------------- */
+/* ========================== extra small part strat =================== */
+@media (min-width: 768px) and (max-width: 991.98px){
+		/* ---------------- header part start --------------------------------- */
+		#header .contracts ul {
+			gap: 10px;
+		}
+	
+		#header .contracts ul li a {
+			font-size: 13px;
+		}
+	
+		#header .social_contracts ul {
+			justify-content: space-between;
+			margin-top: 10px;
+		}
+	
+		/* ----------------- header part end --------------------------------- */
+		/* ---------------- navbar part start --------------------------------- */
+	
+		.menu_logo img {
+			width: 200px;
+		}
+	
+		.navbar-toggler {
+			padding: 8px 10px;
+		}
+	
+		.navbar-toggler:focus {
+			box-shadow: none;
+		}
+	
+		.main_menu ul {
+			background: #990005;
+			text-align: center;
+			border-radius: 5px;
+		}
+	
+		.main_menu ul li a:hover {
+			color: black !important;
+		}
+	
+		/* ----------------- navbar part end --------------------------------- */
+		/* ---------------- text_slide part start --------------------------------- */
+	
+		.main_moving_text ul li {
+			font-size: 14px;
+		}
+	
+		/* ----------------- text_slide part end --------------------------------- */
+		/* ---------------- slide_image part start --------------------------------- */
+		.main_slide_image img {
+			width: 300px;
+		}
+	
+		/* ----------------- slide_image part end --------------------------------- */
+		/* ---------------- sercives_item part start --------------------------------- */
+		#sercives_item .services_head {
+			padding: 4px 0;
+		}
+	
+		/* ----------------- sercives_item part end --------------------------------- */
+		/* ---------------- accro part start --------------------------------- */
+		.nahid_texts {
+			width: 300px;
+			font-size: 16px;
+			font-weight: 400;
+			border-radius: 5px !important;
+		}
+	
+		.n_items {
+			width: 100%;
+		}
+	
+		/* ----------------- accro part end --------------------------------- */
+		/* ==================== About us responsive ========================== */
+		/* ---------------- about us part start --------------------------------- */
+		#sercives_item {
+			padding-bottom: 0px;
+		}
+		.prot_text p {
+			width: 100%;
+			font-size: 14px;
+		}
+	
+		/* ----------------- about us part end --------------------------------- */
+		/* ---------------- charity part start --------------------------------- */
+		.activites_text p {
+			width: 100%;
+			font-size: 14px;
+		}
+		.main_activites {
+			height: 750px;
+		}
+	
+	
+		/* ----------------- charity part end --------------------------------- */
+		/* ---------------- mission part start --------------------------------- */
+		#mission {
+			padding-top: 30px;
+		}
+		#visons {
+			padding-top: 50px;
+		}
+		#trainer {
+			padding-top: 50px;
+		}
+		.prot_head h2 {
+			margin-top: 10px;
+		}
+		/* ----------------- mission part end --------------------------------- */
+		/* ---------------- footer part start --------------------------------- */
+		.fotter_col_one .footer_contract ul li a {
+			font-size: 14px;
+			
+		}
+		.fotter_col_one .footer_contract ul li img {
+			width: 30px;
+		}
+		.fotter_col_one .footer_contract ul li a {
+			font-size: 13px !important;
+		}
+		.map_text .rangpur_map {
+			flex-wrap: nowrap;
+		}
+	
+		/* ----------------- footer part end --------------------------------- */
+}
+
+/* -------------------------- medium small part end ----------------------- */
+/* ========================== extra small part strat =================== */
+
+
+/* -------------------------- extra small part end ----------------------- */
+/* ========================== extra small part strat =================== */
+
+
+/* -------------------------- extra small part end ----------------------- */
+/* ========================== extra small part strat =================== */
+
+
+/* -------------------------- extra small part end ----------------------- */
